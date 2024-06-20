@@ -1,0 +1,87 @@
+#about {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.sectionTitle p {
+  margin: 15px 0 0 0;
+}
+
+.sectionTitle h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.sectionTitle h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.sectionTitle h2::before,
+.sectionTitle h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  display: inline-block;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.content ul li svg {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #14279b;
+  line-height: 1;
+}
+
+.content ul li + li {
+  margin-top: 10px;
+}
+
+.double_line::before {
+  content: "\eb79";
+}
+
+.learnMore {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #14279b;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #14279b;
+}
+
+.learnMore:hover {
+  background: #14279b;
+  color: #fff;
+}

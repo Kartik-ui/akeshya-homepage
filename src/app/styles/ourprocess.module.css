@@ -1,0 +1,85 @@
+#ourprocess {
+  padding: 20px 0 60px;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.sectionTitle p {
+  margin: 15px 0 0 0;
+}
+
+.sectionTitle h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.sectionTitle h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.sectionTitle h2::before,
+.sectionTitle h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  display: inline-block;
+}
+
+.card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cardBody {
+  z-index: 10;
+  background: #f6f6f6;
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+.card:hover .cardBody {
+  background: #14279b;
+}
+
+.card:hover .cardTitle a,
+.card:hover .cardText {
+  color: #fff;
+}
+
+.cardTitle {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cardTitle a {
+  color: #222222;
+}
+
+.cardText {
+  color: #5e5e5e;
+}
+
+.cardText:last-child {
+  margin-bottom: 0;
+}

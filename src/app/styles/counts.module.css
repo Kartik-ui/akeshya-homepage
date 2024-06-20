@@ -1,0 +1,58 @@
+#counts {
+  padding: 0 0 60px;
+  overflow: hidden;
+}
+
+#counts .image {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  padding: 0;
+}
+
+.count_box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.count_box svg {
+  display: block;
+  font-size: 36px;
+  color: #14279b;
+  float: left;
+  line-height: 0;
+}
+
+.count_box .pure_counter {
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #222222;
+  margin-left: 50px;
+}
+
+.count_box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #484848;
+}
+
+@media (max-width: 1024px) {
+  #counts .imageContainer {
+    text-align: center;
+  }
+  #counts .image {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 667px) {
+  #counts .image {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,88 @@
+#contact {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* position: relative; */
+  color: #222222;
+}
+
+.sectionTitle h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.sectionTitle h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.sectionTitle h2::before,
+.sectionTitle h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  display: inline-block;
+}
+
+.about h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #14279b;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  color: #888;
+}
+
+.info svg {
+  font-size: 32px;
+  color: #14279b;
+  float: left;
+  line-height: 1;
+}
+
+.info p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.emailForm input {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.emailForm .formGroup {
+  margin-bottom: 20px;
+}
+
+.emailForm button[type="submit"] {
+  background: #14279b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.emailForm button[type="submit"]:hover {
+  background: #2383c4;
+}

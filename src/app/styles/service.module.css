@@ -1,0 +1,121 @@
+#service {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sectionTitle h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+}
+
+.sectionTitle p {
+  margin: 15px 0 0 0;
+}
+
+.sectionTitle h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.sectionTitle h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.sectionTitle h2::before,
+.sectionTitle h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  display: inline-block;
+}
+
+.iconBox {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.iconBox::before {
+  content: "";
+  position: absolute;
+  background: #e1f0fa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.iconBox:hover::before {
+  background: #14279b;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+}
+
+.iconBox:hover .title,
+.iconBox:hover .description {
+  color: #fff;
+}
+
+.iconBox:hover .icon {
+  background: #fff;
+}
+
+.iconBox:hover .icon svg {
+  color: #14279b;
+}
+
+.icon {
+  color: white !important;
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #14279b;
+  transition: all 0.3s ease-in-out;
+}
+
+.iconImage {
+  font-size: 2.25rem;
+  line-height: 1;
+  font-family: "boxicons" !important;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+}
+
+.title {
+  color: #111;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 28px;
+  margin: 0;
+}

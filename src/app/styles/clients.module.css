@@ -1,0 +1,32 @@
+#clients {
+  background: #f3f9fd;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+#clients .clientImage {
+  width: 50%;
+  filter: grayscale(100);
+  display: inline-block;
+  padding: 10px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#clients .clientImage:hover {
+  filter: none;
+  /* transform: scale(1.1); */
+}
+
+@media (max-width: 768px) {
+  #clients .clientImage {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  #clients .clientImage {
+    width: 30%;
+  }
+}
