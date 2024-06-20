@@ -41,12 +41,12 @@ const About = () => {
             data-aos-delay="300"
           >
             <p>
-              We're professional, but we're also friendly, and we'll always pay
-              attention to your concerns. We expect to work with innovative
-              people that have an open mind and are dedicated to making every
-              idea a reality. We want to hear from you if you're interested in
-              SEO, have Web Development ideas, or require a graphic designer who
-              can match your goals.
+              We&apos;re professional, but we&apos;re also friendly, and
+              we&apos;ll always pay attention to your concerns. We expect to
+              work with innovative people that have an open mind and are
+              dedicated to making every idea a reality. We want to hear from you
+              if you&apos;re interested in SEO, have Web Development ideas, or
+              require a graphic designer who can match your goals.
             </p>
             <a href="/#services" className={styles.learnMore}>
               Learn More
